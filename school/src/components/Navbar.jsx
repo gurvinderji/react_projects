@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav
@@ -21,8 +23,8 @@ const Navbar = () => {
             padding: "16px 24px",
           }}
         >
-          <a
-            href="#"
+          <Link
+            to="/"
             style={{
               textDecoration: "none",
               color: "#323232",
@@ -30,7 +32,7 @@ const Navbar = () => {
             }}
           >
             Home
-          </a>
+          </Link>
         </li>
         <li
           style={{
@@ -39,8 +41,8 @@ const Navbar = () => {
             padding: "16px 24px",
           }}
         >
-          <a
-            href="#"
+          <Link
+            to="/teachers"
             style={{
               textDecoration: "none",
               color: "#323232",
@@ -48,7 +50,7 @@ const Navbar = () => {
             }}
           >
             Teachers
-          </a>
+          </Link>
         </li>
         <li
           style={{
@@ -57,8 +59,8 @@ const Navbar = () => {
             padding: "16px 24px",
           }}
         >
-          <a
-            href="#"
+          <Link
+            to="holidays"
             style={{
               textDecoration: "none",
               color: "#323232",
@@ -66,7 +68,7 @@ const Navbar = () => {
             }}
           >
             Holidays
-          </a>
+          </Link>
         </li>
         <li
           style={{
@@ -75,8 +77,8 @@ const Navbar = () => {
             padding: "16px 24px",
           }}
         >
-          <a
-            href="#"
+          <Link
+            to="/contact-us"
             style={{
               textDecoration: "none",
               color: "#323232",
@@ -84,7 +86,7 @@ const Navbar = () => {
             }}
           >
             Contact
-          </a>
+          </Link>
         </li>
         <li
           style={{
